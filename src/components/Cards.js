@@ -41,7 +41,7 @@ const Cards = () => {
         )
       })}
 
-      <div className='cards__container'>
+      {/* <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             {pubs.map((e, i) => {
@@ -59,7 +59,7 @@ const Cards = () => {
             })}
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

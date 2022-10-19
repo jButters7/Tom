@@ -1,0 +1,14 @@
+.cv_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90px;
+
+}
+
+.cv_container p {
+  font-size: 25px;
+}
+
+.cv_books {
+  height: 300px;
+}
