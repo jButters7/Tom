@@ -8,7 +8,8 @@ function PubCardItem2(props) {
         <a className='pub2_card_title' href={props.link} target="_blank" rel="noreferrer">
           <h5>{props.title}</h5>
         </a>
-        <p className='pub_card_authors'>{props.published_date} With {props.authors}</p>
+        {props.authors ? <p className='pub_card_authors'>{props.published_date} With {props.authors}</p> : <div></div>}
+        <p className='pub_card_authors'>{props.journal}</p>
         <p></p>
         <p>{props.info}</p>
         <div className='pub_card_footer'>

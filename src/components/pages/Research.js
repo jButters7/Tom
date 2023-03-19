@@ -72,6 +72,7 @@ const Publications2 = () => {
             image_alt={element.image_alt}
             info={element.info}
             authors={element.authors}
+            journal={element.journal}
             key={i}
           />
         )
