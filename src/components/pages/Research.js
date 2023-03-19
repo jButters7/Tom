@@ -8,6 +8,7 @@ const Publications2 = () => {
 
   const [selectCategory, setSelectCategory] = useState(useParams().category);
   const [publications, setPublications] = useState([]);
+  const [onlyMedia, setOnlyMedia] = useState(false);
 
   const getAllCategories = () => {
     let allCat = [];

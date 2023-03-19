@@ -24,7 +24,7 @@ const Cards = () => {
 
   return (
     <div className='cards'>
-      <h1>View My Recent Publications</h1>
+      <h1>Recent Publications</h1>
 
       {pubs.map((e, i) => {
         return (
