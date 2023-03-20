@@ -84,11 +84,9 @@ function Navbar() {
                 alt='LinkedIn'
                 src={linked}
               />
-
             </a>
           </li>
         </ul>
-        {/* {button && <Button buttonStyle='btn--outline'>Contact Me</Button>} */}
       </nav>
     </div>
   )

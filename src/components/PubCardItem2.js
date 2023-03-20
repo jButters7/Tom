@@ -1,7 +1,7 @@
 import React from 'react';
 
 function PubCardItem2(props) {
-  const ImgUrl = `https://celadon-rugelach-78a7d1.netlify.app/${props.image}`;
+  const ImgUrl = `https://thomaskelemen.netlify.app//${props.image}`;
   return (
     <div className='pub2_card'>
       <div className='pub_card_info_container'>

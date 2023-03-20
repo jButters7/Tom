@@ -1,113 +1,10 @@
 [
   {
-    "title": "Three reasons we should place a higher value on meta-research",
-    "published_date": "2023",
-    "image": "images/books.jpg",
-    "image_alt": "DHMIS",
-    "authors": "Michael J Matthews",
-    "journal": "LSE Impact",
-    "link": "https://blogs.lse.ac.uk/impactofsocialsciences/2023/02/23/three-reasons-we-should-place-a-higher-value-on-meta-research/",
-    "categories": [
-      "Media"
-    ],
-    "info": "Research is often reported on and assessed in singular, rather than aggregate terms. For example, single papers, datasets and findings."
-  },
-  {
-    "title": "The benefits and pitfalls of using social media when you're a business leader",
-    "published_date": "2023",
-    "image": "images/books.jpg",
-    "image_alt": "DHMIS",
-    "authors": "Michael J Matthews, Samuel H Matthews, and David Wang",
-    "journal": "LSE Business Review",
-    "link": "https://blogs.lse.ac.uk/businessreview/2023/01/23/the-benefits-and-pitfalls-of-using-social-media-when-youre-a-business-leader/",
-    "categories": [
-      "Media"
-    ],
-    "info": "How to approach the social media environment is a vexing issue for leaders and managers."
-  },
-  {
-    "title": "Essential advice for leaders from a decade of research on humble leadership",
-    "published_date": "2023",
-    "image": "images/books.jpg",
-    "image_alt": "DHMIS",
-    "authors": "SH Matthews, MJ Matthews, and SE Henry",
-    "journal": "LSE Business Review",
-    "link": "https://blogs.lse.ac.uk/businessreview/2023/01/17/essential-advice-for-leaders-from-a-decade-of-research-on-humble-leadership/",
-    "categories": [
-      "Media"
-    ],
-    "info": "A decade ago, qualitative studies established a precise definition of humble leadership, which brought about a surge in research on this topic."
-  },
-  {
-    "title": "Chat-GPT - your replacement or assistant",
-    "published_date": "2023",
-    "image": "images/books.jpg",
-    "image_alt": "DHMIS",
-    "authors": "Michael J. Matthews, and Samuel H. Matthews",
-    "journal": "Desert News",
-    "link": "https://www.deseret.com/opinion/2023/1/19/23559764/opinion-chatgpt-ai-technology-improve-work",
-    "categories": [
-      "Media"
-    ],
-    "info": "ChatGPT can do a lot, but we don't need to be anxious about our jobs — instead, this new tech can be an asset."
-  },
-  {
-    "title": "This New Year, Resolve Against Workaholism",
-    "published_date": "2022",
-    "image": "images/books.jpg",
-    "image_alt": "DHMIS",
-    "authors": "MJ Matthews",
-    "journal": "MIT Sloan Management Review",
-    "link": "https://sloanreview.mit.edu/article/this-new-year-resolve-against-workaholism/",
-    "categories": [
-      "Media"
-    ],
-    "info": "Workaholic behavior can damage organizations and teams; managers can take steps to help employees attain better balance."
-  },
-  {
-    "title": "Do Employees Have a Point? How to Handle the Quiet Quitters Before They Really Quit",
-    "published_date": "2022",
-    "image": "images/books.jpg",
-    "image_alt": "DHMIS",
-    "authors": "",
-    "journal": "Desert News",
-    "link": "https://www.deseret.com/opinion/2022/8/23/23316713/opinion-what-is-quiet-quitting-tiktok",
-    "categories": [
-      "Media"
-    ],
-    "info": "'Quiet quitting' is the latest work trend, but it may not be all bad. Employees who overwork themselves tend to burn out faster"
-  },
-  {
-    "title": "Three Simple Ways to Motivate Your Team Members",
-    "published_date": "2022",
-    "image": "images/books.jpg",
-    "image_alt": "DHMIS",
-    "authors": "MJ Matthews",
-    "journal": "Harvard Business Review",
-    "link": "https://hbr.org/2022/12/3-simple-ways-to-motivate-your-team-members",
-    "categories": [
-      "Media"
-    ],
-    "info": "Theories on motivation have long predicted that a baseline satisfaction score could be decreased or increased by peripheral factors, but it can be overwhelming for new managers to know where to begin."
-  },
-  {
-    "title": "You're Working More. Here's How to Talk to Your Partner About It",
-    "published_date": "2022",
-    "image": "images/books.jpg",
-    "image_alt": "DHMIS",
-    "authors": "MC Bolino, ML Flores, and RS Bisel",
-    "journal": "Harvard Business Review",
-    "link": "https://hbr.org/2022/07/youre-working-more-heres-how-to-talk-to-your-partner-about-it",
-    "categories": [
-      "Media"
-    ],
-    "info": "Taking on an extra project at work can benefit your career — but it can also sow conflict at home."
-  },
-  {
     "title": "Energizing and depleting? The daily effects of organizationally focused citizenship behaviors",
     "published_date": "2023",
     "image": "images/books.jpg",
     "image_alt": "DHMIS",
+    "image_credit": "",
     "authors": "S Matthews, S Henry, Y Zhang, and B Bradley",
     "journal": "Journal of Managerial Psychology",
     "link": "https://www.emerald.com/insight/content/doi/10.1108/JMP-05-2022-0222/full/htmls",
@@ -121,6 +18,7 @@
     "published_date": "2023",
     "image": "images/books.jpg",
     "image_alt": "DHMIS",
+    "image_credit": "",
     "authors": "Nicolas Bastardoz, Michael J Matthews, Gwendolin B Sajons, Tyler Ransom, and Samuel H Matthews",
     "journal": "The Leadership Quarterly",
     "link": "https://www.sciencedirect.com/science/article/pii/S1048984322000765",
@@ -130,10 +28,25 @@
     "info": "Researchers striving to ensure rigor in their scientific findings face a common pitfall: Endogeneity."
   },
   {
+    "title": "Humble leadership: A review and synthesis of leader expressed humility",
+    "published_date": "2023",
+    "image": "images/books.jpg",
+    "image_alt": "Humble leadership",
+    "image_credit": "",
+    "authors": "SH Matthews, MJ Matthews, and SE Henry",
+    "journal": "Journal of Organizational Behavior",
+    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/job.2608",
+    "categories": [
+      "Leadership"
+    ],
+    "info": "Recent academic research has proliferated around the construct of humble leadership. Humble leadership involves having an accurate view of oneself, recognizing the contributions of followers, and modeling teachability."
+  },
+  {
     "title": "Citizenship behavior and new venture survival: a cultural tightness-looseness capabilities lens",
     "published_date": "2022",
     "image": "images/books.jpg",
     "image_alt": "DHMIS",
+    "image_credit": "",
     "authors": "RJ Pidduck, and MC Bolino",
     "journal": "International Journal of Entrepreneurial Behavior & Research",
     "link": "https://www.emerald.com/insight/content/doi/10.1108/IJEBR-11-2021-0904/full/html",
@@ -147,6 +60,7 @@
     "published_date": "2022",
     "image": "images/building.jpg",
     "image_alt": "Covid-19",
+    "image_credit": "",
     "authors": "M Wan, Y Zhang, and SH Matthews",
     "journal": "Psychological Reports",
     "link": "https://journals.sagepub.com/doi/abs/10.1177/00332941221109105",
@@ -160,6 +74,7 @@
     "published_date": "2022",
     "image": "images/building.jpg",
     "image_alt": "The Machiavellian Organization",
+    "image_credit": "",
     "authors": "MJ Matthews, SH Matthews, and JM Matthews",
     "journal": "Group & Organization Management",
     "link": "https://journals.sagepub.com/doi/abs/10.1177/10596011221081281",
@@ -169,10 +84,123 @@
     "info": "We introduce a three-phase model of decision-making as examined through a Machiavellian lens."
   },
   {
+    "title": "Three reasons we should place a higher value on meta-research",
+    "published_date": "2023",
+    "image": "images/books.jpg",
+    "image_alt": "DHMIS",
+    "image_credit": "",
+    "authors": "Michael J Matthews",
+    "journal": "LSE Impact",
+    "link": "https://blogs.lse.ac.uk/impactofsocialsciences/2023/02/23/three-reasons-we-should-place-a-higher-value-on-meta-research/",
+    "categories": [
+      "Media"
+    ],
+    "info": "Research is often reported on and assessed in singular, rather than aggregate terms. For example, single papers, datasets and findings."
+  },
+  {
+    "title": "The benefits and pitfalls of using social media when you're a business leader",
+    "published_date": "2023",
+    "image": "images/books.jpg",
+    "image_alt": "DHMIS",
+    "image_credit": "",
+    "authors": "Michael J Matthews, Samuel H Matthews, and David Wang",
+    "journal": "LSE Business Review",
+    "link": "https://blogs.lse.ac.uk/businessreview/2023/01/23/the-benefits-and-pitfalls-of-using-social-media-when-youre-a-business-leader/",
+    "categories": [
+      "Media"
+    ],
+    "info": "How to approach the social media environment is a vexing issue for leaders and managers."
+  },
+  {
+    "title": "Essential advice for leaders from a decade of research on humble leadership",
+    "published_date": "2023",
+    "image": "images/books.jpg",
+    "image_alt": "DHMIS",
+    "image_credit": "",
+    "authors": "SH Matthews, MJ Matthews, and SE Henry",
+    "journal": "LSE Business Review",
+    "link": "https://blogs.lse.ac.uk/businessreview/2023/01/17/essential-advice-for-leaders-from-a-decade-of-research-on-humble-leadership/",
+    "categories": [
+      "Media"
+    ],
+    "info": "A decade ago, qualitative studies established a precise definition of humble leadership, which brought about a surge in research on this topic."
+  },
+  {
+    "title": "Chat-GPT - your replacement or assistant",
+    "published_date": "2023",
+    "image": "images/books.jpg",
+    "image_alt": "DHMIS",
+    "image_credit": "",
+    "authors": "Michael J. Matthews, and Samuel H. Matthews",
+    "journal": "Desert News",
+    "link": "https://www.deseret.com/opinion/2023/1/19/23559764/opinion-chatgpt-ai-technology-improve-work",
+    "categories": [
+      "Media"
+    ],
+    "info": "ChatGPT can do a lot, but we don't need to be anxious about our jobs — instead, this new tech can be an asset."
+  },
+  {
+    "title": "This New Year, Resolve Against Workaholism",
+    "published_date": "2022",
+    "image": "images/books.jpg",
+    "image_alt": "DHMIS",
+    "image_credit": "",
+    "authors": "MJ Matthews",
+    "journal": "MIT Sloan Management Review",
+    "link": "https://sloanreview.mit.edu/article/this-new-year-resolve-against-workaholism/",
+    "categories": [
+      "Media"
+    ],
+    "info": "Workaholic behavior can damage organizations and teams; managers can take steps to help employees attain better balance."
+  },
+  {
+    "title": "Do Employees Have a Point? How to Handle the Quiet Quitters Before They Really Quit",
+    "published_date": "2022",
+    "image": "images/books.jpg",
+    "image_alt": "DHMIS",
+    "image_credit": "",
+    "authors": "",
+    "journal": "Desert News",
+    "link": "https://www.deseret.com/opinion/2022/8/23/23316713/opinion-what-is-quiet-quitting-tiktok",
+    "categories": [
+      "Media"
+    ],
+    "info": "'Quiet quitting' is the latest work trend, but it may not be all bad. Employees who overwork themselves tend to burn out faster"
+  },
+  {
+    "title": "Three Simple Ways to Motivate Your Team Members",
+    "published_date": "2022",
+    "image": "images/books.jpg",
+    "image_alt": "DHMIS",
+    "image_credit": "",
+    "authors": "MJ Matthews",
+    "journal": "Harvard Business Review",
+    "link": "https://hbr.org/2022/12/3-simple-ways-to-motivate-your-team-members",
+    "categories": [
+      "Media"
+    ],
+    "info": "Theories on motivation have long predicted that a baseline satisfaction score could be decreased or increased by peripheral factors, but it can be overwhelming for new managers to know where to begin."
+  },
+  {
+    "title": "You're Working More. Here's How to Talk to Your Partner About It",
+    "published_date": "2022",
+    "image": "images/books.jpg",
+    "image_alt": "DHMIS",
+    "image_credit": "",
+    "authors": "MC Bolino, ML Flores, and RS Bisel",
+    "journal": "Harvard Business Review",
+    "link": "https://hbr.org/2022/07/youre-working-more-heres-how-to-talk-to-your-partner-about-it",
+    "categories": [
+      "Media"
+    ],
+    "info": "Taking on an extra project at work can benefit your career — but it can also sow conflict at home."
+  },
+  {
     "title": "The Alignment Problem: Machine Learning And Human Values. (Book Review)",
     "published_date": "2022",
     "image": "images/writing.jpg",
     "image_alt": "machine learning",
+    "image_credit": "",
     "authors": "M Matthews, and S Matthews",
     "journal": "Personnel Psychology",
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iwcG5KQAAAAJ&sortby=pubdate&citation_for_view=iwcG5KQAAAAJ:UHK10RUVsp4C",
@@ -182,23 +210,11 @@
     "info": "We review the book The Alignment Problem: Machine Learning And Human Values by Brian Christian."
   },
   {
-    "title": "Humble leadership: A review and synthesis of leader expressed humility",
-    "published_date": "2023",
-    "image": "images/books.jpg",
-    "image_alt": "Humble leadership",
-    "authors": "SH Matthews, MJ Matthews, and SE Henry",
-    "journal": "Journal of Organizational Behavior",
-    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/job.2608",
-    "categories": [
-      "Leadership"
-    ],
-    "info": "Recent academic research has proliferated around the construct of humble leadership. Humble leadership involves having an accurate view of oneself, recognizing the contributions of followers, and modeling teachability."
-  },
-  {
     "title": "May I Please Go the Extra Mile? Citizenship Communication Strategies and Their Effect on Individual Initiative OCB, Work-Family Conflict, and Partner Satisfaction",
     "published_date": "2022",
     "image": "images/books.jpg",
     "image_alt": "Going the extra mile",
+    "image_credit": "",
     "authors": "MC Bolino, ML Flores, and RS Bisel",
     "journal": "Academy of Management Journal",
     "link": "https://journals.aom.org/doi/abs/10.5465/amj.2020.0581",
@@ -212,6 +228,7 @@
     "published_date": "2022",
     "image": "images/building.jpg",
     "image_alt": "Socials",
+    "image_credit": "",
     "authors": "MJ Matthews, SH Matthews, and DD Wang",
     "journal": "The Leadership Quarterly",
     "link": "https://www.sciencedirect.com/science/article/pii/S1048984321000850",
@@ -225,6 +242,7 @@
     "published_date": "2022",
     "image": "images/plane.jpg",
     "image_alt": "citizenship and nature",
+    "image_credit": "",
     "authors": "WH Turnley, DM Bergeron, K Rochford, and J Hinz",
     "journal": "Human Resource Management Review",
     "link": "https://www.sciencedirect.com/science/article/abs/pii/S1053482222000043",
@@ -238,6 +256,7 @@
     "published_date": "2021",
     "image": "images/building.jpg",
     "image_alt": "working 9-to-5",
+    "image_credit": "",
     "authors": "MC Bolino, and SH Matthews",
     "journal": "Journal of Organizational Behavior",
     "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/job.2440",
@@ -251,6 +270,7 @@
     "published_date": "2021",
     "image": "images/building.jpg",
     "image_alt": "cultural values",
+    "image_credit": "",
     "authors": "SH Matthews, and MC Bolino",
     "journal": "The Leadership Quarterly",
     "link": "https://www.sciencedirect.com/science/article/pii/S1048984321000035",
@@ -264,6 +284,7 @@
     "published_date": "2020",
     "image": "images/building.jpg",
     "image_alt": "work schedules",
+    "image_credit": "",
     "authors": "MC Bolino, and SH Matthews",
     "journal": "Harvard Business Review",
     "link": "https://hbr.org/2020/07/rethinking-work-schedules-consider-these-4-questions",
@@ -277,6 +298,7 @@
     "published_date": "2020",
     "image": "images/building.jpg",
     "image_alt": "personalities",
+    "image_credit": "",
     "authors": "B Bradley, and S Matthews",
     "journal": "Oxford Research Encyclopedia of Business and Management",
     "link": "https://oxfordre.com/business/view/10.1093/acrefore/9780190224851.001.0001/acrefore-9780190224851-e-22",
@@ -290,6 +312,7 @@
     "published_date": "2020",
     "image": "images/building.jpg",
     "image_alt": "gender diversity",
+    "image_credit": "",
     "authors": "SH Matthews, X Zhang, BH Bradley and H Liu",
     "journal": "Journal of Applied Social Psychology",
     "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jasp.12690",
@@ -303,6 +326,7 @@
     "published_date": "2020",
     "image": "images/building.jpg",
     "image_alt": "pets",
+    "image_credit": "",
     "authors": "SH Matthews, M Wan, and Y Zhang",
     "journal": "Journal of Organizational Behavior",
     "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/job.2465",
@@ -316,6 +340,7 @@
     "published_date": "2020",
     "image": "images/building.jpg",
     "image_alt": "leading day-to-day",
+    "image_credit": "",
     "authors": "SH Matthews, and K Breevaart",
     "journal": "The Leadership Quarterly",
     "link": "https://www.sciencedirect.com/science/article/pii/S1048984318308208",

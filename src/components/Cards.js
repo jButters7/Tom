@@ -40,26 +40,6 @@ const Cards = () => {
           />
         )
       })}
-
-      {/* <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            {pubs.map((e, i) => {
-              console.log(pubs)
-              return (
-                <CardItem
-                  image={pubs[i].image}
-                  title={pubs[i].title}
-                  published_date={pubs[i].published_date}
-                  link={pubs[i].link}
-                  image_alt={pubs[i].image_alt}
-                  key={i}
-                />
-              )
-            })}
-          </ul>
-        </div>
-      </div> */}
     </div>
   );
 }

@@ -12,6 +12,7 @@ function App() {
     <>
       <Router>
         <Navbar />
+        <div style={{ height: "80px" }}></div>
         <Routes>
           <Route path='/' exact element={<Home />} />
           <Route path='/about-me' element={<AboutMe />} />
