@@ -8,7 +8,6 @@ const Publications2 = () => {
 
   const [selectCategory, setSelectCategory] = useState(useParams().category);
   const [publications, setPublications] = useState([]);
-  const [onlyMedia, setOnlyMedia] = useState(false);
 
   const getAllCategories = () => {
     let allCat = [];
@@ -28,7 +27,6 @@ const Publications2 = () => {
   const setPubList = () => {
     setPublications(() => {
       let pubsForSelectedCat = [];
-      console.log(selectCategory, "current Choice")
       if (selectCategory === "All") {
         return Pubs;
       }
@@ -54,6 +52,7 @@ const Publications2 = () => {
       <h1 className='title'>My Publications</h1>
       <div className='category_selector_container'>
         <h3>Sort By Category:</h3>
+
         <form>
           <select defaultValue={useParams().category} className='select_cat_dropdown' onChange={e => setSelectCategory(e.target.value)}>
             <option value="All" key="All">All</option>
