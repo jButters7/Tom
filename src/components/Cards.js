@@ -1,22 +1,26 @@
 import React, { useState, useEffect } from 'react';
 import './Cards.css';
-import CardItem from './CardItem';
-import Publications from './publications.json';
-import PubCardItem2 from '../components/PubCardItem2';
+import Pubs from './publications.json';
+import PubCard from './PubCard';
 
 const Cards = () => {
-  const [pubs, setPubs] = useState([]);
-
+  const [fivePubs, setFivePubs] = useState([]);
   const getFivePubs = () => {
     let fivePubs = [];
+    let count = 0;
 
-    for (let i = 0; i < 5; i++) {
-      fivePubs.push(Publications[i])
+    // Will get first 5 Pubs that don't have media tag
+    for (let i = 0; i < Pubs.length; i++) {
+      if (Pubs[i].categories.indexOf("Media") == -1) {
+        fivePubs.push(Pubs[i]);
+        count++;
+        if (count === 5) {
+          break;
+        }
+      }
     }
-    console.log(fivePubs)
-    return setPubs(fivePubs);
+    return setFivePubs(fivePubs);
   }
-
 
   useEffect(() => {
     getFivePubs();
@@ -26,16 +30,17 @@ const Cards = () => {
     <div className='cards'>
       <h1>Recent Publications</h1>
 
-      {pubs.map((e, i) => {
+      {fivePubs.map((e, i) => {
         return (
-          <PubCardItem2
-            image={pubs[i].image}
-            title={pubs[i].title}
-            published_date={pubs[i].published_date}
-            link={pubs[i].link}
-            image_alt={pubs[i].image_alt}
-            info={pubs[i].info}
-            authors={pubs[i].authors}
+          <PubCard
+            image={fivePubs[i].image}
+            title={fivePubs[i].title}
+            published_date={fivePubs[i].published_date}
+            link={fivePubs[i].link}
+            image_alt={fivePubs[i].image_alt}
+            info={fivePubs[i].info}
+            authors={fivePubs[i].authors}
+            journal={fivePubs[i].journal}
             key={i}
           />
         )

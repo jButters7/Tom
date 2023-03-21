@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import '../Research.css';
-import PubCardItem2 from '../PubCardItem2';
+import PubCard from '../PubCard';
 import Pubs from '../publications.json';
 import { useParams } from 'react-router-dom';
 
-const Publications2 = () => {
-
-  const [selectCategory, setSelectCategory] = useState(useParams().category);
+const Research = () => {
   const [publications, setPublications] = useState([]);
+  const formatParamCat = param => param.split('+').join(' ');
+  const [formatParam, setFormat] = useState(formatParamCat(useParams().category));
+  const [selectCategory, setSelectCategory] = useState(formatParamCat(useParams().category));
 
   const getAllCategories = () => {
     let allCat = [];
@@ -18,11 +19,15 @@ const Publications2 = () => {
         }
       }
     }
+    // removes "Media" from dropdown list
+    if (allCat.indexOf("Media") > -1) {
+      allCat.splice(allCat.indexOf("Media"), 1)
+    }
+
     return allCat;
   }
 
   const [allCategories, setAllCategories] = useState(getAllCategories());
-  console.log(useParams().category, publications)
 
   const setPubList = () => {
     setPublications(() => {
@@ -45,7 +50,7 @@ const Publications2 = () => {
 
   useEffect(() => {
     setPubList();
-  }, [selectCategory, useParams()])
+  }, [selectCategory])
 
   return (
     <div className='pub2_container'>
@@ -54,7 +59,7 @@ const Publications2 = () => {
         <h3>Sort By Category:</h3>
 
         <form>
-          <select defaultValue={useParams().category} className='select_cat_dropdown' onChange={e => setSelectCategory(e.target.value)}>
+          <select defaultValue={formatParam} className='select_cat_dropdown' onChange={e => setSelectCategory(e.target.value)}>
             <option value="All" key="All">All</option>
             {allCategories.map(cat => <option value={cat} key={cat}>{cat}</option>)}
           </select>
@@ -63,12 +68,13 @@ const Publications2 = () => {
       </div>
       {publications.map((element, i) => {
         return (
-          <PubCardItem2
-            image={element.image}
+          <PubCard
             title={element.title}
             published_date={element.published_date}
             link={element.link}
+            image={element.image}
             image_alt={element.image_alt}
+            image_credit={element.image_credit}
             info={element.info}
             authors={element.authors}
             journal={element.journal}
@@ -80,4 +86,4 @@ const Publications2 = () => {
   );
 }
 
-export default Publications2;
+export default Research;

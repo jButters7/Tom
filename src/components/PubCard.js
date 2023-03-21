@@ -23,6 +23,7 @@ function PubCardItem2(props) {
             alt={props.image_alt}
             src={ImgUrl}
           />
+          <div className='img_cred'>{props.image_credit}</div>
         </a>
       </div>
     </div>

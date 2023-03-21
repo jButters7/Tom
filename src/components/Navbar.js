@@ -23,7 +23,6 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
-    console.log(openResearch)
   }, [])
 
   window.addEventListener('resize', showButton);
@@ -41,7 +40,7 @@ function Navbar() {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item' onMouseEnter={handleOpenResearch} onMouseLeave={handleOpenResearch}>
-            <Link to='/research/All' className='nav-links research' onClick={closeMobileMenu}>
+            <Link to='/research/all' className='nav-links research' onClick={closeMobileMenu}>
               Research
             </Link>
             {openResearch ? <div className='dropdown_list_container'>
@@ -55,15 +54,20 @@ function Navbar() {
                   OCB
                 </Link>
               </div>
+              <div className='dropdown_list'>
+                <Link to='/research/Job+Design' onClick={closeMobileMenu}>
+                  Job Design
+                </Link>
+              </div>
             </div> : <p></p>}
           </li>
           <li className='nav-item'>
-            <Link to='/research/Media' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/media' className='nav-links' onClick={closeMobileMenu}>
               Media
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/publications2' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/teaching' className='nav-links' onClick={closeMobileMenu}>
               Teaching
             </Link>
           </li>
