@@ -10,7 +10,7 @@ for (let j = 0; j < MI.length; j++) {
 
 
 function PubCard(props) {
-  const ImgUrl = `https://celadon-rugelach-78a7d1.netlify.app/${props.image}`;
+  const ImgUrl = `https://thomaskelemen.netlify.app/${props.image}`;
   return (
     <div className='pub2_card'>
 
