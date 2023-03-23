@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { Button } from './Button';
 import linked from './image/linked.png';
 
 function Navbar() {
@@ -50,13 +49,13 @@ function Navbar() {
                 </Link>
               </div>
               <div className='dropdown_list'>
-                <Link to='/research/OCB' onClick={closeMobileMenu}>
-                  OCB
+                <Link to='/research/Job+Design' onClick={closeMobileMenu}>
+                  Job Design
                 </Link>
               </div>
               <div className='dropdown_list'>
-                <Link to='/research/Job+Design' onClick={closeMobileMenu}>
-                  Job Design
+                <Link to='/research/OCB' onClick={closeMobileMenu}>
+                  OCB
                 </Link>
               </div>
             </div> : <p></p>}

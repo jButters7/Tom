@@ -10,6 +10,8 @@ const Research = () => {
   const [formatParam, setFormat] = useState(formatParamCat(useParams().category));
   const [selectCategory, setSelectCategory] = useState(formatParamCat(useParams().category));
 
+  console.log(useParams().category, 'cat')
+
   const removeAllMediaPubs = () => {
     let allNonMediaPubs = [];
     //Will get only pubs that don't have media tag
