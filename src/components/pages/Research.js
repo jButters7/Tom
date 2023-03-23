@@ -10,6 +10,19 @@ const Research = () => {
   const [formatParam, setFormat] = useState(formatParamCat(useParams().category));
   const [selectCategory, setSelectCategory] = useState(formatParamCat(useParams().category));
 
+  const removeAllMediaPubs = () => {
+    let allNonMediaPubs = [];
+    //Will get only pubs that don't have media tag
+    for (let i = 0; i < Pubs.length; i++) {
+      for (let j = 0; j < Pubs[i].categories.length; j++) {
+        if ((Pubs[i].categories[j]) !== "Media") {
+          allNonMediaPubs.push(Pubs[i])
+        }
+      }
+    }
+    return setPublications(allNonMediaPubs);
+  }
+
   const getAllCategories = () => {
     let allCat = [];
     for (let i = 0; i < Pubs.length; i++) {
@@ -49,7 +62,7 @@ const Research = () => {
 
 
   useEffect(() => {
-    setPubList();
+    removeAllMediaPubs();
   }, [selectCategory])
 
   return (
