@@ -40,7 +40,7 @@ function Navbar() {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item' onMouseEnter={handleOpenResearch} onMouseLeave={handleOpenResearch}>
-            <Link to='/research/all' className='nav-links research' onClick={closeMobileMenu}>
+            <Link to='/research/All' className='nav-links research' onClick={closeMobileMenu}>
               Research
             </Link>
             {openResearch ? <div className='dropdown_list_container'>

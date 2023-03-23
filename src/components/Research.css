@@ -3,11 +3,6 @@ a {
   color: inherit;
 }
 
-.pub_card_info_container p {
-  font-family: 'Times New Roman', Times, serif;
-  line-height: 20px;
-}
-
 select {
   background-color: transparent;
   border: none;
@@ -18,6 +13,10 @@ select {
   font-size: inherit;
   cursor: pointer;
   line-height: inherit;
+}
+
+.pub_card_info_container p {
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .title {
@@ -51,7 +50,7 @@ select {
 .pub2_card {
   -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.271);
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.271);
-  height: 230px;
+  height: auto;
   margin: 40px auto;
   padding: 20px;
   border-radius: 5px;
@@ -66,8 +65,9 @@ select {
 }
 
 .pub_card_info_container {
-  max-width: 600px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .pub2_card_title {
@@ -79,6 +79,10 @@ select {
   font-size: 12px;
 }
 
+.pub_card_info {
+  padding: 5px 0px;
+}
+
 .img_cred {
   color: gray;
   font-size: 10px;
@@ -87,10 +91,6 @@ select {
 
 .pub_card_footer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
 }
 
 .request_pdf_btn {
@@ -106,11 +106,14 @@ select {
 }
 
 .pub_card_img_container {
+  padding-left: 70px;
+  align-items: center;
   display: flex;
 }
 
 .pub_card_img {
   width: 250px;
+  height: 175px;
   align-items: center;
 }
 
@@ -123,51 +126,25 @@ select {
   .pub2_card {
     -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.385);
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.271);
-    margin: 15px auto;
+    margin: 40px auto;
     padding: 10px;
     border-radius: 5px;
     height: auto;
   }
 
-  .pub_card_info_container {
-    height: auto;
-    position: none;
-  }
-
-  .pub2_card_title {
-    font-size: 24px;
-  }
-
-  .pub_card_authors {
-    color: gray;
-    font-size: 12px;
-  }
-
   .pub_card_footer {
     width: 100%;
-    position: relative;
     padding: 5px 0px;
   }
 
-  .request_pdf_btn {
-    cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 3px;
-    border: 1px solid rgba(128, 128, 128, 0.596);
-  }
-
-  .request_pdf_btn:hover {
-    box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 27%);
-    transition: all 0.1s ease-out;
-  }
-
   .pub_card_img_container {
-    justify-content: space-around;
-    display: flex;
+    display: none;
+    /* align-items: start;
+    padding-left: 10px; */
   }
 
   .pub_card_img {
-    min-width: 200px;
-    max-width: 200px;
+    min-width: 220px;
+    max-width: 220px;
   }
 }
