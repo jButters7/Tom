@@ -63,11 +63,12 @@ const Research = () => {
 
   useEffect(() => {
     removeAllMediaPubs();
+    setPubList();
   }, [selectCategory])
 
   return (
     <div className='pub2_container'>
-      <h1 className='title'>My Publications</h1>
+      <h1 className='title'>My Research</h1>
       <div className='category_selector_container'>
         <h3>Sort By Category:</h3>
 

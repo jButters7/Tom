@@ -21,7 +21,7 @@ function PubCard(props) {
         <p className='pub_card_info'>{props.info}</p>
         {props.authors ? <p className='pub_card_authors'>{props.published_date} With {props.authors} <br /> {props.journal}</p> : <p className='pub_card_authors'>{props.journal}</p>}
         <div className='pub_card_footer'>
-          <a className='request_pdf_btn' href={"mailto:" + OT.split("*")[1] + "?subject=PDF%20Request" + "&body=" + props.title}>Request PDF</a>
+          <a className='request_pdf_btn' href={"mailto:" + OT.split("*")[1] + "?subject=PDF%20Request" + "&body=" + props.title} target="_blank">Request PDF</a>
         </div>
       </div>
       <div className='pub_card_img_container'>
