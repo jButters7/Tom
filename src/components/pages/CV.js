@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../components/CV.css';
 import cv from "../documents/Thomas-Kelemen-CV.docx"
 import openBooks from "../image/open_books.jpg";
+import '../../components/css/CV.css';
 
 const CV = () => {
   return (

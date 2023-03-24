@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './Cards.css';
-import Pubs from './publications.json';
+import Pubs from './documents/publications.json';
 import PubCard from './PubCard';
+import './css/RecentPub.css';
 
-const Cards = () => {
+const RecentPub = () => {
   const [fivePubs, setFivePubs] = useState([]);
   const getFivePubs = () => {
     let fivePubs = [];
@@ -49,4 +49,4 @@ const Cards = () => {
   );
 }
 
-export default Cards;
+export default RecentPub;

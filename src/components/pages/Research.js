@@ -1,16 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import '../Research.css';
-import PubCard from '../PubCard';
-import Pubs from '../publications.json';
 import { useParams } from 'react-router-dom';
+import PubCard from '../PubCard';
+import Pubs from '../documents/publications.json';
+import '../css/Research.css';
 
 const Research = () => {
   const [publications, setPublications] = useState([]);
   const formatParamCat = param => param.split('+').join(' ');
   const [formatParam, setFormat] = useState(formatParamCat(useParams().category));
   const [selectCategory, setSelectCategory] = useState(formatParamCat(useParams().category));
-
-  console.log(useParams().category, 'cat')
 
   const removeAllMediaPubs = () => {
     let allNonMediaPubs = [];
@@ -62,25 +60,22 @@ const Research = () => {
     })
   }
 
-
   useEffect(() => {
     removeAllMediaPubs();
     setPubList();
   }, [selectCategory])
 
   return (
-    <div className='pub2_container'>
-      <h1 className='title'>My Research</h1>
+    <div className='research_container'>
+      <h1 className='research_title'>My Research</h1>
       <div className='category_selector_container'>
         <h3>Sort By Category:</h3>
-
         <form>
           <select defaultValue={formatParam} className='select_cat_dropdown' onChange={e => setSelectCategory(e.target.value)}>
             <option value="All" key="All">All</option>
             {allCategories.map(cat => <option value={cat} key={cat}>{cat}</option>)}
           </select>
         </form>
-
       </div>
       {publications.map((element, i) => {
         return (

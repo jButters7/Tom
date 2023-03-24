@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../components/AboutMe.css';
+import '../../components/css/AboutMe.css';
 import tom from '../image/t-kelemen.jpeg';
 
 export default function AboutMe() {
@@ -14,7 +14,6 @@ export default function AboutMe() {
         <p>Beyond work, Thomas is a proud father of three: Dan, Margot, and Millie. He and his wife Jessica love playing board games, playing racquetball and pickleball, reading, hiking, and watching survivor (yes, the show is STILL running).</p>
       </div>
       <div className='img-container'>
-
         <img className='about-me-img' src={tom} alt='Thomas Kelemen'></img>
       </div>
     </div>

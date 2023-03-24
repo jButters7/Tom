@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import '../Research.css';
 import PubCardItem2 from '../PubCard';
-import Pubs from '../publications.json';
+import Pubs from '../documents/publications.json';
+import '../css/Research.css';
 
 const Media = () => {
   const [mediaPub, setMediaPub] = useState([]);
@@ -12,7 +12,6 @@ const Media = () => {
     for (let i = 0; i < Pubs.length; i++) {
       for (let j = 0; j < Pubs[i].categories.length; j++) {
         if ((Pubs[i].categories[j]) === "Media") {
-          console.log(Pubs[i])
           allMediaPub.push(Pubs[i])
         }
       }
@@ -27,7 +26,6 @@ const Media = () => {
   return (
     <div className='pub2_container'>
       <h1 className='title'>My Media</h1>
-
       {mediaPub.map((element, i) => {
         return (
           <PubCardItem2

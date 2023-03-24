@@ -6,7 +6,7 @@ import AboutMe from './components/pages/AboutMe';
 import CV from './components/pages/CV';
 import Media from './components/pages/Media';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
+import './components/css/App.css';
 
 function App() {
   return (
