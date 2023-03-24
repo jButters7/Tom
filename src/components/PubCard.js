@@ -11,7 +11,7 @@ for (let j = 0; j < MI.length; j++) {
 
 function PubCard(props) {
   const ImgUrl = `https://thomaskelemen.netlify.app/${props.image}`;
-  const emailBody = `Dear%20Dr.%20Kelemen,U+000A%20I%20would%20like%20to%20request%20the%20PDF%20file%20for%20${+ props.title}.U+000A%20Thank%20you,`;
+  const emailBody = `Dear%20Dr.%20Kelemen,\n%20I%20would%20like%20to%20request%20the%20PDF%20file%20for%20${props.title}.\nThank%20you,`;
   return (
     <div className='pub2_card'>
 
