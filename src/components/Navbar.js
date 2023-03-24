@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
 import linked from './image/linked.png';
 
@@ -7,10 +7,21 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
   const [openResearch, setOpenResearch] = useState(false);
+  // const location = useLocation();
+  const page = useLocation().pathname.split('/')[1]
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-  const handleOpenResearch = () => setOpenResearch(!openResearch);
+
+  const handleOpenResearch = () => {
+    // removes research dropdown options when research page is open.
+    if (page !== 'research') {
+      setOpenResearch(!openResearch);
+    }
+    if (openResearch === true) {
+      setOpenResearch(false);
+    }
+  };
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
