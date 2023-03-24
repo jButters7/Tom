@@ -11,6 +11,7 @@ for (let j = 0; j < MI.length; j++) {
 
 function PubCard(props) {
   const ImgUrl = `https://thomaskelemen.netlify.app/${props.image}`;
+  const emailBody = `Dear%20Dr.%20Kelemen,U+000A%20I%20would%20like%20to%20request%20the%20PDF%20file%20for%20${+ props.title}.U+000A%20Thank%20you,`;
   return (
     <div className='pub2_card'>
 
@@ -21,7 +22,7 @@ function PubCard(props) {
         <p className='pub_card_info'>{props.info}</p>
         {props.authors ? <p className='pub_card_authors'>{props.published_date} With {props.authors} <br /> {props.journal}</p> : <p className='pub_card_authors'>{props.journal}</p>}
         <div className='pub_card_footer'>
-          <a className='request_pdf_btn' href={"mailto:" + OT.split("*")[1] + "?subject=PDF%20Request" + "&body=" + props.title} target="_blank">Request PDF</a>
+          <a className='request_pdf_btn' href={"mailto:" + OT.split("*")[1] + "?subject=PDF%20Request" + "&body=" + emailBody} target="_blank">Request PDF</a>
         </div>
       </div>
       <div className='pub_card_img_container'>
